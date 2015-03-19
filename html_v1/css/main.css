@@ -1,0 +1,86 @@
+
+@font-face {
+	font-family: 'Museo Slab500';
+	
+	src: url('../fonts/Museo/Museo_Slab_500.eot'); /* IE9 Compat Modes */;
+	src: url('../fonts/Museo/Museo_Slab_500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Museo/Museo_Slab_500.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Museo/Museo_Slab_500.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Museo/Museo_Slab_500.svg#Avenir') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Museo Slab500Italic';
+	
+	src: url('../fonts/Museo/Museo_Slab_500italic.eot'); /* IE9 Compat Modes */;
+	src: url('../fonts/Museo/Museo_Slab_500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Museo/Museo_Slab_500italic.woff') format('woff'), /* Modern Browsers */
+		 url('../fonts/Museo/Museo_Slab_500italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Museo/Museo_Slab_500italic.svg#Avenir') format('svg'); /* Legacy iOS */
+}
+
+/* Menu navigation */
+	
+
+
+/* Menu navigation */
+
+body {
+	padding-top: 105px;
+	background: #F5F5F5;
+	/*background: url("../img/product_bg.png")208px 80px no-repeat;*/
+}
+body.product-bg {
+	background: url("../img/product_bg_2.png")50% 45px no-repeat;
+}
+body.vitamin-bg {
+	background: url("../img/vitamin_bg.png")50% 45px no-repeat;
+}
+.middle-content {
+  padding: 120px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  text-align: center;
+  /*background-color: #eee;*/
+  background: url("../img/product_bg.png")10px -25px no-repeat;
+}
+.middle-content-product {
+  padding: 120px 0;
+  margin-bottom: 30px;
+  color: inherit;
+  text-align: center;
+  /*background: url("../img/product_bg_2.png")50% 45px no-repeat;*/
+}
+.container .middle-content {
+  padding-right: 125px;
+  padding-left: 125px;
+}
+.container .middle-content h1 {
+	font-family: 'Museo Slab500Italic', Helvetica, Arial;
+	line-height: 1;
+	font-size: 4.5em;
+	color: #808080;
+}
+.container .middle-content p {
+	margin: 0 0 10px;
+}
+.container .middle-content img {
+	margin: 10px 0 20px;
+}
+.btn-plus {
+	width: 35px;
+  	height: 35px;
+  	background: white;
+  	border: none;
+  	border-radius: 30px;
+  	  background: url("../img/plus.png")5px 5px no-repeat;
+  	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  	box-shadow: 0 1px 6px rgba(0,0,0,.4);
+  	-webkit-transition: all .15s linear;
+}
+.begin-btn {
+	font-family: 'Museo Slab500Italic', Helvetica, Arial;
+	font-size: 1em;
+	color: #808080;
+}
